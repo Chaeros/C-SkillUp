@@ -1,0 +1,57 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# Generic build artifacts
+build/
+out/
+bin/
+obj/
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake-build-*/
+compile_commands.json
+Makefile
+
+# This repo's sample binary
+/aProject/app
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.VC.db
+*.opendb
+
+# Build output
+x64/
+Debug/
+Release/
+*.obj
+*.log
+*.ilk
+*.pdb
+*.exe
+
+# IntelliSense
+*.ipch
+*.db
+*.db-shm
+*.db-wal
+
+# Copilot
+CopilotIndices/
+FileContentIndex/
