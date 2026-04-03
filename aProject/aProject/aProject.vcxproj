@@ -130,12 +130,15 @@
     <ClCompile Include="aThread.cpp" />
     <ClCompile Include="bThread.cpp" />
     <ClCompile Include="main.cpp" />
+	<ClCompile Include="..\sma\sma_writer.cpp" />
     <ClCompile Include="shared.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="aThread.h" />
     <ClInclude Include="bThread.h" />
     <ClInclude Include="shared.h" />
+	<ClInclude Include="..\sma\sma_writer.h" />
+    <ClInclude Include="..\sma\shared_memory_contract.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
